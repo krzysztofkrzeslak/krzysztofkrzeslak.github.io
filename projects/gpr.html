@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <title>
+
+      gpr | Krzysztof Krześlak | Portfolio
+  </title>
+
+  <!-- Load Javascript and CSS for Semantic UI -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="../css/semantic-ui/semantic.min.js"></script>
+  <link rel="stylesheet" href="../css/semantic-ui/semantic.min.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/default.css">
+
+  <link rel="stylesheet" type="text/css" href="../css/rouge/igorpro.css">
+
+</head>
+
+  <body>
+    <!-- Used by all builtin themes. Now we list number of essays and projects. -->
+
+<div class="nonprintable">
+  <nav class="ui stackable menu">
+    <a href="../index.html" class="brand item">
+      <img class="ui avatar image" src="../images/me.jpeg"><span>Krzysztof Krześlak</span>
+    </a>
+
+    <a href="./index.html" class="  active item">Projects</a>
+
+  </nav>
+</div>
+
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+ <h1>Vacay</h1>
+ <p><img class="ui medium right floated rounded image" src="../images/gpr.jpg" /></p>
+
+<p>This project was about redesign/improvement of existing Ground-penetrating radar hardware and software,
+   which at the starting point was inconvenient to use.
+  The reason for that was that for operation it required external PC and battery and software was not designed to handle any hardware problems.</p>
+</div>
+
+<div style="margin-top: 200px; margin-bottom: 20px" class="ui text container">
+<h4>Scope of work</h4>
+
+<hr>
+<p>The first part of work was getting rid of the need to use external equipment to operate,
+   so existing electronics were moved to the new case where complete battery along with PC(in an industrial panel format, running Windows OS) was embedded
+   <a href="../images/gpr_old.jpg"><img class="ui medium rounded image" src="../images/gpr_old.jpg"/></a><caption>Starting point</caption>
+ </p>
+
+<p>Orginal software utilized Swing Library for UI and JNI for communication with the hardware layer.
+   It needed adaptations to new hardware along with a lot of bugfixes and UX improvements.</p>
+<hr>
+<p class="text-center">In operation, after improvements were done:
+<a href="../images/gpr_3.jpg"><img class="ui medium rounded image auto-margin" src="../images/gpr_3.jpg"/></a></p>
+<hr>
+</div>
+
+<script>
+  $('.ui.embed').embed();
+</script>
+
+
+  </body>
+
+</html>
