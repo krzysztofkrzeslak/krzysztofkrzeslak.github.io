@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Advanced Environmental Sensor | Krzysztof Krześlak | Portfolio</title>
+
+  <!-- Load Javascript and CSS for Semantic UI -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="../css/semantic-ui/semantic.min.js"></script>
+  <link rel="stylesheet" href="../css/semantic-ui/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/default.css">
+  <link rel="stylesheet" type="text/css" href="../css/rouge/igorpro.css">
+</head>
+<body>
+
+<div class="nonprintable">
+  <nav class="ui stackable menu">
+    <a href="../index.html" class="brand item">
+      <img class="ui avatar image" src="../images/me.jpeg"><span>Krzysztof Krześlak</span>
+    </a>
+    <a href="./index.html" class="active item">Projects</a>
+  </nav>
+</div>
+
+<div style="margin-top: 20px; margin-bottom: 20px" class="ui text container">
+  <h1>Advanced Climate Measurement Device</h1>
+  <p>
+    <img class="ui medium right floated rounded image" src="../images/CO2Sensor.jpeg">
+  </p>
+  <p>
+    This project involves developing a compact environmental monitoring device using the M5Stack Core2. Designed for smart home integration, the device monitors air quality and environmental conditions, with data seamlessly transmitted to Home Assistant via MQTT for real-time analysis and automation.
+  </p>
+  <h3>Key Features</h3>
+  <ul>
+    <li>Real-Time Display: Displays live sensor readings on the M5Stack’s built-in LCD screen.</li>
+    <li>MQTT Integration: Publishes data to Home Assistant for easy visualization and automation.</li>
+    <li>Modular Design: Supports additional sensors for future expansions.</li>
+  </ul>
+  <h3>Integrated Sensors</h3>
+  <ul>
+    <li>PMSA003: Measures particulate matter (PM1.0, PM2.5, PM10) in standard and atmospheric modes.</li>
+    <li>SHT20: Records temperature and humidity.</li>
+    <li>SGP30: Tracks CO2 equivalents and TVOC levels.</li>
+  </ul>
+  <h3>Applications</h3>
+  <ul>
+    <li>Air quality monitoring for indoor spaces.</li>
+    <li>Smart home automation.</li>
+    <li>Environmental data collection for analysis.</li>
+  </ul>
+  <p>This device combines precise environmental monitoring with robust IoT integration, offering a user-friendly and scalable solution for smart home enthusiasts.</p>
+</div>
+
+<script>
+  $('.ui.embed').embed();
+</script>
+
+</body>
+</html>
